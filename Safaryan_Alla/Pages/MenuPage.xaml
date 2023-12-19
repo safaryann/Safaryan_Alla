@@ -1,0 +1,18 @@
+﻿<Page x:Class="Safaryan_Alla.Pages.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Safaryan_Alla.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Title="Главное меню">
+
+    <Grid>
+        <StackPanel Margin="165,190,165,0" VerticalAlignment="Top">
+            <Button x:Name="ProjectButton" Content="Проекты" Margin="0,0,0,40" Height="60" Width="200" FontFamily="Arial" FontSize="20" FontWeight="Bold" Background="#FFB37AC1" Foreground="WhiteSmoke" BorderBrush="#FFB37AC1" Click="ProjectButton_Click"/>
+            <Button x:Name="NotesButton" Content="Заметки" Margin="0,0,0,40" Height="60" Width="200" FontFamily="Arial" FontSize="20" FontWeight="Bold" Background="#FFB37AC1" Foreground="WhiteSmoke" BorderBrush="#FFB37AC1" Click="NotesButton_Click"/>
+            <Button x:Name="GroupButton" Content="Группы" Margin="0,0,0,40" Height="60" Width="200" FontFamily="Arial" FontSize="20" FontWeight="Bold" Background="#FFB37AC1" Foreground="WhiteSmoke" BorderBrush="#FFB37AC1" Click="GroupButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
